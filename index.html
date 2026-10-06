@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot Simple</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main class="chatbot">
+        <header class="chatbot-header">
+            <div class="chatbot-avatar">🤖</div>
+            <div>
+                <h1>Chatbot</h1>
+                <p>En línea</p>
+            </div>
+        </header>
+
+        <div class="chatbot-messages" id="messages" aria-live="polite"></div>
+
+        <div class="chatbot-input">
+            <input type="text" id="userInput" placeholder="Escribe un mensaje..." autocomplete="off" aria-label="Mensaje">
+            <button type="button" id="sendButton">Enviar</button>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
